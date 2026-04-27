@@ -1,4 +1,45 @@
-# Created by .ignore support plugin (hsz.mobi)
-.gitignore
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IDE
+.vscode/
 .idea/
-"\351\232\220\345\274\217Intent\346\211\276\344\270\215\345\210\260Activity"
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+.coverage
+
+# Package manager
+package-lock.json
+```
